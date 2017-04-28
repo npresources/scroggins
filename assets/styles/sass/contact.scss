@@ -1,0 +1,37 @@
+.contact {
+  background: #333;
+  margin-bottom: 3rem;
+
+  .contact-header {
+    .block-title {
+      border-bottom: 2px solid $yellow;
+      text-align: left;
+      color: #666;
+      
+      @include breakpoint(medium) {
+        margin-bottom: 2rem;
+      }
+    }
+  }
+
+  p {
+    color: #ccc;
+  }
+
+  @include breakpoint(medium) {
+    .contact-form {
+      padding-left: 2rem;
+    }
+  }
+
+  .form {
+    .input-style, .textarea-style {
+      background: #555;
+    }
+
+    .submit-button {
+      background: #333;
+      color: #ccc;
+    }
+  }
+}

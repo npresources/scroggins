@@ -1,0 +1,45 @@
+.four-oh-four {
+  .body {
+
+    @include breakpoint(medium) {
+      padding-left: 1rem;
+    }
+
+    h2 {
+      text-transform: uppercase;
+      color: #35373e;
+      font-size: 2.5rem;
+      margin-bottom: 1.5rem;
+      padding-bottom: 0.7rem;
+      border-bottom: 2px solid $yellow;
+    }
+
+    p {
+      font-size: 1.125rem;
+    }
+
+    .submit-button {
+      padding: 0.8rem 3rem;
+      border:0 none;
+      cursor:pointer;
+      font-size: 1rem;
+      border-radius: 2rem;
+      border: 2px solid $yellow;
+      font-weight: 400;
+      width: 100%;
+      background: #efefef;
+      color: #666;
+      display: inline-block;
+
+      @include breakpoint(medium) {
+        width: inherit;
+      }
+      
+      &:hover {
+        background: $yellow;
+        color: #333;
+        transition: all 0.3s;
+      }
+    }
+  }
+}

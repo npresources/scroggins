@@ -1,0 +1,121 @@
+body {
+  background: #f1f1f1;
+}
+
+.block-title {
+  padding-bottom: 1.2rem;
+  margin-bottom: 2.2rem;
+  line-height: 2.4rem;
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+  color: $grey;
+  text-transform: uppercase;
+  text-align: center;
+  word-wrap: break-word;
+  border-bottom: 3px solid $yellow;
+
+  @include breakpoint(medium) {
+    padding-bottom: 1.8rem;
+    margin-bottom: 2.8rem;
+    font-size: 2.8rem;
+    line-height: 3.6rem;
+  }
+}
+
+.block-sub-title {
+  max-width: 560px;
+  color: #8b989b;
+  font-size: 16px;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 1.7;
+  padding: 0 15px 80px;
+  letter-spacing: 0;
+}
+
+.small-page-container {
+  padding: 6rem 0;
+}
+
+.page-container {
+  padding: 12rem 0 6rem 0;
+}
+
+.scroll-item {
+  top: 5rem;
+}
+
+
+.embed-container { 
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.close-button {
+  font-size: 3rem;
+}
+
+div.wpcf7-mail-sent-ok {
+  border: 1px solid #92ff08 !important;
+  background: #7ef35b !important;
+  color: #404040 !important;
+  padding: 1rem !important;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.wpcf7-validation-errors {
+  border: 1px solid #d0bc4b !important;
+  background: #f3dc5b !important;
+  color: #404040 !important;
+  padding: 1rem !important;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+span.wpcf7-not-valid-tip {
+  color: #ff2a2a;
+  font-size: 1em;
+  display: block;
+  margin-top: -1.4rem;
+  margin-bottom: 0.8rem;
+}
+
+.scrogg-button {
+  padding: 0.8rem 1rem;
+  border:0 none;
+  cursor:pointer;
+  font-size: 1rem;
+  border-radius: 2rem;
+  border: 2px solid $yellow;
+  font-weight: 400;
+  color: #333;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+
+  &:hover {
+    background: $yellow;
+    transition: background 0.3s;
+  }
+}
+
+.reveal .form .input-style {
+  border: 2px solid #fdcd31;
+
+  &.is-invalid-input {
+    margin-bottom: 1rem;
+  }
+}

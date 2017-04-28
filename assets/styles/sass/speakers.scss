@@ -1,0 +1,26 @@
+.speakers {
+
+  margin-top: 6rem;
+
+  #speaker-info {
+    font-size:      2.25rem;
+    letter-spacing: 1px;
+  }
+
+  @include breakpoint(large) {
+    margin-top: 0;
+  }
+
+  .speaker-title {
+    margin-top: 1rem;
+    font-weight: 600;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+  }
+
+  .row {
+    .medium-4.columns {
+      text-align: center;
+    }
+  }
+}

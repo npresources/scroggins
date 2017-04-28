@@ -1,0 +1,57 @@
+.form {
+  .input-style, .textarea-style, .select-style  {
+    width: 100%;
+    padding: 1.4rem 0.8rem;
+    margin-bottom: 1.9rem;
+    outline: none;
+    border: 0; 
+    font-size: 1rem;
+    box-shadow: inset 0px 0px 0px 0px;
+    color: #a9a9a9;
+
+    @include breakpoint(medium) {
+      padding: 0.8rem 1.2rem;
+    }
+  }
+
+  .textarea-style {
+    height: auto;
+    resize: none;
+    margin-bottom: 1rem;
+  }
+
+  .select-style {
+    background-position: right 0rem center;
+    padding: 0 0.8rem;
+
+    @include breakpoint(medium) {
+      padding: 0 1.2rem;
+    }
+  }
+
+  label {
+    color: #696969;
+  }
+
+  .submit-button {
+    padding: 0.8rem 3rem;
+    border:0 none;
+    cursor:pointer;
+    font-size: 1rem;
+    border-radius: 2rem;
+    border: 2px solid $yellow;
+    font-weight: 400;
+    width: 100%;
+    background: transparent;
+
+    @include breakpoint(medium) {
+      width: inherit;
+    }
+    
+    &:hover {
+      background: $yellow;
+      color: #333;
+      transition: all 0.3s;
+    }
+  }
+}

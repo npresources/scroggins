@@ -1,0 +1,111 @@
+#events-callout,
+#book-callout {
+  padding-top: 3.3rem;
+}
+
+.scrog-content {
+  text-align: center;
+}
+
+.book {
+  background: #efefef;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+
+  .book-info {
+    @include breakpoint(medium) {
+      padding-top: 3rem;
+    }
+
+    .book-header {
+      border-bottom: 3px solid $yellow;
+      padding-bottom: 1rem;
+      margin-bottom: 1.4rem;
+      display: none;
+
+      @include breakpoint(medium) {
+        display: block;
+        padding-bottom: 1.85rem;
+        margin-bottom: 2rem;
+      }
+
+      .book-title {
+        font-size: 1.8rem;
+        line-height: 2srem;
+        font-weight: 600;
+
+        @include breakpoint(medium) {
+          font-size: 2.7rem;
+          line-height: 2.8rem;
+        }
+      }
+
+      .book-byline {
+        font-style: italic;
+        font-weight: 300;
+        letter-spacing: 1px;
+      }
+    }
+
+    .book-body {
+      margin-bottom: 2rem;
+      text-align: center;
+
+      @include breakpoint(medium) {
+        text-align: left;
+        margin-bottom: 1rem;
+      }
+
+      p {
+        font-size: 1.1rem;
+      }
+    }
+
+    .book-footer {
+      text-align: center;
+
+      @include breakpoint(medium) {
+        text-align: left;
+      }
+
+      .available-block {
+        margin-bottom: 2rem;
+
+        @include breakpoint(medium) {
+          margin-bottom: 0;
+        }
+
+        h5 {
+          margin-bottom: 2rem;
+          line-height: 1.4rem;
+          display: inline-block;
+
+          &.bold {
+            display: inline-block;
+            font-weight: 600;
+          }
+        }
+      }
+
+      .scrogg-button {
+        margin-bottom: 2rem;
+
+        @include breakpoint(medium) {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  .book-image {
+    max-height: 23rem;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 2rem;
+
+    @include breakpoint(medium) {
+      display: inline;
+      max-height: 32rem;
+    }
+  }
+}

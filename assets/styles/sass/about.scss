@@ -1,0 +1,30 @@
+.about {
+  .about-pic {
+    box-shadow: 5px 8.7px 20px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: auto;
+
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
+  }
+
+  .body {
+    @include breakpoint(medium) {
+      padding-left: 4rem;
+    }
+
+    h2 {
+      text-transform: uppercase;
+      color: #35373e;
+      font-size: 2.5rem;
+      margin-bottom: 1.5rem;
+      padding-bottom: 0.7rem;
+      border-bottom: 2px solid $yellow;
+    }
+
+    p {
+      font-size: 1.125rem;
+    }
+  }
+}

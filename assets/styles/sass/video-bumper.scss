@@ -1,0 +1,94 @@
+#event-container.page-container {
+
+	@include breakpoint( small ) {
+
+		padding: 2rem 0 6rem 0;
+
+		#event-bumper {
+			margin-bottom: -4rem;
+		}
+	}
+
+	@include breakpoint( medium ) {
+
+		padding: 4rem 0 6rem 0;
+
+		#event-bumper {
+			margin-bottom: -10rem;
+		}
+	}
+
+	@include breakpoint( large ) {
+
+		#event-bumper {
+			margin-bottom: 0rem;
+		}
+	}
+}
+
+#event {
+
+	.row {
+		.large-5 {
+
+			margin-top: 2.5rem;
+
+			h1 {
+
+				font-size:   2.5rem;
+				line-height: 2.8rem;
+				font-weight: bold;
+				font-style:  italic;
+			}
+
+			h2 {
+
+				font-weight:    100;
+				font-size:      2rem;
+				letter-spacing: 1px;
+			}
+
+			h3 {
+				font-size: 1rem;
+			}
+
+			#registration-anchor {
+
+				width:      100%;
+				text-align: center;
+				display:    block;
+			}
+
+			@include breakpoint( small ) {
+
+				h1, h2, h3 {
+					text-align:center;
+				}
+			}
+		}
+	}
+}
+
+.video-banner {
+
+	@include breakpoint(small) {
+
+		margin-top: 2rem;
+
+		video {
+			width: 100%;
+		}
+	}
+
+	@include breakpoint(medium) {
+	}
+
+	@include breakpoint(large) {
+
+		background: 	black;
+
+		video {
+			width: 100%;
+		}
+	}
+}

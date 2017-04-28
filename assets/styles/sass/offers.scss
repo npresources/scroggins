@@ -1,0 +1,49 @@
+.offers {
+
+  margin-bottom: 6rem;
+  background: #333;
+
+  .block-title,
+  p,
+  .scrogg-button {
+    color: #fff;
+  }
+
+  .row {
+    .columns {
+
+      .block-title {
+        min-height: 4.5em;
+        height:     4.5em;
+      }
+
+      .scrog-content {
+        min-height: 8em;
+        height:     8em;
+      }
+    }
+  }
+
+  @include breakpoint(medium down) {
+
+    .row {
+      .columns {
+
+        margin-bottom: 4rem;
+
+        .block-title {
+          border-top:    3px solid $yellow;
+          border-bottom: 0;
+          height:        auto;
+          min-height:    auto;
+          padding-top:    4rem;
+        }
+
+        .scrog-content {
+          height:     auto;
+          min-height: auto;
+        }
+      }
+    }
+  }
+}
