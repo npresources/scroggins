@@ -4416,7 +4416,7 @@ span.wpcf7-not-valid-tip {
 #event-container.page-container {
   padding: 2rem 0 6rem 0; }
   #event-container.page-container #event-bumper {
-    margin-bottom: -4rem; }
+    margin-bottom: 0rem; }
   @media print, screen and (min-width: 40em) {
     #event-container.page-container {
       padding: 4rem 0 6rem 0; }
@@ -4447,7 +4447,7 @@ span.wpcf7-not-valid-tip {
     text-align: center; }
 
 .video-banner {
-  margin-top: 2rem; }
+  margin-top: 0rem; }
   .video-banner video {
     width: 100%; }
   @media print, screen and (min-width: 64em) {
