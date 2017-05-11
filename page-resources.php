@@ -20,7 +20,7 @@
                 <br /><br />
                 Available everywhere August 22, 2017</p>
                 <p><a data-open="signUp" class="scrogg-button">Sign up for updates</a></p>
-                <p><a href="https://www.amazon.com/How-Lead-When-Youre-Charge-ebook/dp/B01N3NGFNU/" target="_blank" class="scrogg-button">PRE-ORDER ON AMAZON</a></p>
+                <p><a href="https://www.amazon.com/How-Lead-When-Youre-Charge/dp/0310531578/" target="_blank" class="scrogg-button">PRE-ORDER ON AMAZON</a></p>
                 <div class="reveal" id="sampleChapter" data-reveal>
                     <h2 class="block-title">Sample Chapter</h2>
                     <div class="form">

@@ -14,7 +14,7 @@
                 <div class="book-body">
                     <p>Great leaders lead with or without the authority to lead.</p>
                     <p>Because every road of leadership forks at the intersection of authority and influence, learning to cultivate influence without authority is foundational to navigating culture today.</p>
-                    <a href="https://www.amazon.com/How-Lead-When-Youre-Charge-ebook/dp/B01N3NGFNU/" class="scrogg-button" target="_blank">
+                    <a href="https://www.amazon.com/How-Lead-When-Youre-Charge/dp/0310531578/" class="scrogg-button" target="_blank">
                         Pre-Order on Amazon
                     </a>
                 </div>
