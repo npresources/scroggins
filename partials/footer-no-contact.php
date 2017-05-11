@@ -1,13 +1,13 @@
 <?php if ( ! scroggins_hide_event_content() ) { ?>
     <div id="sponsor" class="sponsor">
         <h4>
-            This event is sponsored exclusively by Belay.
+            This event is sponsored exclusively by BELAY.
         </h4>
         <a href="https://belaysolutions.com" target="_blank">
-            <img src="<?php echo get_template_directory_uri() ?>/assets/images/belay.png" alt="Belay Solutions" />
+            <img src="<?php echo get_template_directory_uri() ?>/assets/images/belay.png" alt="BELAY Solutions" />
         </a>
         <h4>
-            Virtual Help for Businesses
+            Virtual Help for Organizations
         </h4>
     </div><!-- .sponsor -->
 <?php } ?>
