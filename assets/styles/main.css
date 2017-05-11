@@ -4631,6 +4631,22 @@ span.wpcf7-not-valid-tip {
     color: #333;
     transition: all 0.3s; }
 
+#login-form h2, #login-form h3 {
+  text-align: center; }
+
+#login-form h3 {
+  font-size: 1.35rem;
+  padding: 0.5rem 0 1rem 0; }
+
+#event-byline p {
+  font-size: 1.35rem;
+  font-weight: 300; }
+
+#video-container {
+  padding: 7rem 0 2rem 0; }
+  #video-container div div video {
+    width: 100%; }
+
 .form .input-style, .form .textarea-style, .form .select-style {
   width: 100%;
   padding: 1.4rem 0.8rem;

@@ -56,7 +56,9 @@ function display_alternate_footer() {
     static $display;
 
     isset( $display ) || $display = in_array( true, [
-        is_page('resources'), is_page('event')
+        is_page( 'resources' ),
+		is_page( 'event' ),
+		is_page( 'login' )
     ]);
 
     return apply_filters( 'scroggins/display_alternate_footer', $display );
