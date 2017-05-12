@@ -30,7 +30,7 @@
 				</p>
 			</div><!-- #login-image -->
 			<div id="login-form" class="medium-6 columns">
-				<h2>LIVE BROADCAST EVENT</h3>
+				<h2>JOIN LIVE BROADCAST</h3>
 				<h3>WEDNESDAY, MAY 17, 2017 1PM - 3PM (10AM PDT)</h3>
 				<div class="form">
 					<form id="if-form" accept-charset="UTF-8" action="https://hs353.infusionsoft.com/app/form/process/afad727d301030c62383abb8e69bf0ac" class="infusion-form" method="POST" target="if-frame">
