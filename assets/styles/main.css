@@ -4640,7 +4640,10 @@ span.wpcf7-not-valid-tip {
 
 #event-byline p {
   font-size: 1.35rem;
-  font-weight: 300; }
+  font-weight: 300;
+  text-align: center;
+  padding-top: 2rem;
+  margin-bottom: -2rem; }
 
 #video-container {
   padding: 7rem 0 2rem 0; }
