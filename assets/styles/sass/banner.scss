@@ -6,6 +6,8 @@
 
   .orbit-container {
 
+    padding-top: 2rem;
+
     @include breakpoint(small) {
       height: 220px !important;
     }

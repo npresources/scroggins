@@ -4,7 +4,7 @@
   z-index: 10;
   padding-top: 30px;
   transition: background 0.2s linear;
-  background: transparent;
+  background: #333;
 
   &.container {
     position: relative;
@@ -35,7 +35,7 @@
     padding-top: 15px;
     border-bottom: 1px solid #222525;
   }
-  
+
   &.header-active {
     background: #242727 !important;
     background-color: rgba(34, 34, 34, 0.97) !important;

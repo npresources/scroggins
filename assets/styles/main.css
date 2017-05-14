@@ -3980,7 +3980,7 @@ span.wpcf7-not-valid-tip {
   z-index: 10;
   padding-top: 30px;
   transition: background 0.2s linear;
-  background: transparent; }
+  background: #333; }
   .header.container {
     position: relative; }
   .header #logo {
@@ -4111,6 +4111,7 @@ span.wpcf7-not-valid-tip {
     margin-bottom: 5rem; } }
 
 #home .orbit-container {
+  padding-top: 2rem;
   height: 220px !important; }
   @media print, screen and (min-width: 40em) {
     #home .orbit-container {
