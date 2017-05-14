@@ -33,35 +33,42 @@
 				<h2>JOIN LIVE BROADCAST</h3>
 				<h3>WEDNESDAY, MAY 17, 2017 1PM - 3PM (10AM PDT)</h3>
 				<div class="form">
-					<form id="if-form" accept-charset="UTF-8" action="https://hs353.infusionsoft.com/app/form/process/afad727d301030c62383abb8e69bf0ac" class="infusion-form" method="POST" target="if-frame">
-						<input name="inf_form_xid" type="hidden" value="afad727d301030c62383abb8e69bf0ac" />
-						<input name="inf_form_name" type="hidden" value="Book Notification" />
-						<input name="infusionsoft_version" type="hidden" value="1.65.0.44" />
+					<form id="if-form" accept-charset="UTF-8" action="https://hs353.infusionsoft.com/app/form/process/1560770db22c437218fd3baa76a9731e" class="infusion-form" method="POST" target="if-frame">
+						<input name="inf_form_xid" type="hidden" value="1560770db22c437218fd3baa76a9731e" />
+						<input name="inf_form_name" type="hidden" value="Event Show Up" />
+						<input name="infusionsoft_version" type="hidden" value="1.65.0.58" />
 						<div class="infusion-field">
-							<input class="infusion-field-input-container input-style" id="inf_field_FirstName" name="inf_field_FirstName" type="text" placeholder="First Name" required />
-							<span class="form-error">This is required</span>
+							<label for="inf_field_FirstName">First Name *</label>
+							<input class="infusion-field-input-container" id="inf_field_FirstName" name="inf_field_FirstName" type="text" required />
+							<span class="form-error">Your first name is required</span>
 						</div>
 						<div class="infusion-field">
-							<input class="infusion-field-input-container input-style" id="inf_field_LastName" name="inf_field_LastName" type="text" placeholder="Last Name" required />
-							<span class="form-error">This is required</span>
+							<label for="inf_field_LastName">Last Name *</label>
+							<input class="infusion-field-input-container" id="inf_field_LastName" name="inf_field_LastName" type="text" required />
+							<span class="form-error">Your last name is required</span>
 						</div>
 						<div class="infusion-field">
-							<input class="infusion-field-input-container input-style" id="inf_field_Email" name="inf_field_Email" type="email"
-									placeholder="Email" required />
+							<label for="inf_field_Email">Email *</label>
+							<input class="infusion-field-input-container" id="inf_field_Email" name="inf_field_Email" type="text" required />
 							<span class="form-error">A valid email address is required</span>
 						</div>
 						<div class="infusion-field">
-							<input class="infusion-field-input-container input-style" id="inf_field_LastName" name="inf_field_LastName" type="text" placeholder="Zip Code" required />
-							<span class="form-error">This is required</span>
+							<label for="inf_custom_ZipCode">Zip Code</label>
+							<input class="infusion-field-input-container" id="inf_custom_ZipCode" name="inf_custom_ZipCode" type="text" required />
+							<span class="form-error">A valid zip code is required</span>
 						</div>
-						<div class="infusion-submit">
-							<input id="if-submit" type="submit" value="Login" class="submit-button" />
+						<div class="clearfix">
+							<input id="if-submit" type="submit"
+							class="submit-button login-button" value="Login" />
 						</div>
 					</form>
-					<iframe name="if-frame" id="if-frame" width="0" height="0" src=""></iframe>
 					<script type="text/javascript" src="https://hs353.infusionsoft.com/app/webTracking/getTrackingCode"></script>
+					<iframe name="if-frame" id="if-frame" width="0" height="0" src=""></iframe>
 					<div id="if-success" class="callout success hide">
-						<p>Thanks for signing up.</p>
+						<p>
+							Thank you! You'll be redirected to the event page momentarily.
+							<span id="redirect"></span>
+						</p>
 					</div><!-- #if-success -->
 				</div><!-- .form -->
 			</div><!-- #login-form -->

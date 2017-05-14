@@ -47,6 +47,11 @@ var scroggins_infusionsoft_handler = function( $ ) {
             $( '#if-success' )
                 .removeClass( 'hide' )
                 .show();
+
+            // If were on the login page, redirect to the video.
+            if ( 0 < $( '#redirect').length ) {
+                window.location.href = 'https://event.clayscroggins.com';
+            }
         }
     });
 };

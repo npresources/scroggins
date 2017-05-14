@@ -81,7 +81,10 @@ function submit_form() {
 add_action( 'wp_ajax_submit_form', 'submit_form' );
 add_action( 'wp_ajax_nopriv_submit_form', 'submit_form' );
 
-
+add_action( 'wp_enqueue_scripts', 'enqueue_scripts' );
+/**
+ * Adds all necessary JavaScript files to the site.
+ */
 function enqueue_scripts() {
 
 	wp_enqueue_script(
@@ -106,4 +109,3 @@ function enqueue_scripts() {
 		[ 'url' => admin_url( 'admin-ajax.php' ) ]
 	);
 }
-add_action( 'wp_enqueue_scripts', 'enqueue_scripts' );

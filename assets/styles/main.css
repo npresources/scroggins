@@ -4651,6 +4651,9 @@ span.wpcf7-not-valid-tip {
   #video-container div div video {
     width: 100%; }
 
+#if-form .login-button {
+  width: 100%; }
+
 .form .input-style, .form .textarea-style, .form .select-style {
   width: 100%;
   padding: 1.4rem 0.8rem;
