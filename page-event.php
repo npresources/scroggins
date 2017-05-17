@@ -16,10 +16,12 @@
 			</div><!-- .large-6 -->
 			<div class="large-5 columns">
 				<h1>HOW TO LEAD WHEN YOU'RE NOT IN CHARGE</h1>
-				<h2>LIVE BROADCAST EVENT</h3>
-				<h3>WEDNESDAY, MAY 17, 2017 1PM - 3PM (10AM PDT)</h3>
+				<p>
+					Sorry your missed our online event. Sign up below to stay in the know on other ways
+					you can better lead when you're not in charge.
+				</p>
 				<a id="registration-anchor" href="#registration">
-					REGISTER NOW
+					SIGN-UP FOR UPDATES
 				</a>
 			</div><!-- .large-5 -->
 		</div><!-- .row -->
@@ -72,10 +74,7 @@
     <div id="registration" class="row">
 		<h2 class="block-title">EVENT REGISTRATION</h2>
         <div class="medium-6 columns">
-            <h3>WEDNESDAY, MAY 17</h3>
-            <h4>1:00-3:00 p.m. EDT (10:00 a.m. PDT)</h4>
-            <p>One of the greatest myths of leadership is that you must be in charge in order to lead. Great leaders don't buy it. Great leaders lead with or without the authority to lead. Join Clay as he interviews some of today’s most effective leaders in this free, one-time, two-hour event that will help you unleash your influence, no matter what seat you’re in.</p>
-            <p>This event is for those that want to expand their influence and make an impact in their organizations.</p>
+            <p>One of the greatest myths of leadership is that you must be in charge in order to lead. Great leaders don't buy it. Great leaders lead with or without the authority to lead.</p>
         </div>
 
 		<div class="medium-6 columns">
@@ -101,7 +100,7 @@
                         <span class="form-error">A valid email address is required</span>
 					</div>
 					<div class="infusion-submit">
-						<input id="if-submit" type="submit" value="SIGN UP FOR THE EVENT" class="submit-button" />
+						<input id="if-submit" type="submit" value="SIGN UP FOR UPDATES" class="submit-button" />
 					</div>
 					<iframe name="if-frame" id="if-frame" width="0" height="0" src=""></iframe>
 				</form>
