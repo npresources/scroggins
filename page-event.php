@@ -72,7 +72,6 @@
 	</div><!-- #speakers -->
 
     <div id="registration" class="row">
-		<h2 class="block-title">EVENT REGISTRATION</h2>
         <div class="medium-6 columns">
             <p>One of the greatest myths of leadership is that you must be in charge in order to lead. Great leaders don't buy it. Great leaders lead with or without the authority to lead.</p>
         </div>
