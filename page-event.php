@@ -17,7 +17,7 @@
 			<div class="large-5 columns">
 				<h1>HOW TO LEAD WHEN YOU'RE NOT IN CHARGE</h1>
 				<p>
-					Sorry your missed our online event. Sign up below to stay in the know on other ways
+					Sorry you missed our online event. Sign up below to stay in the know on other ways
 					you can better lead when you're not in charge.
 				</p>
 				<a id="registration-anchor" href="#registration">
