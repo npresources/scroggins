@@ -14,9 +14,48 @@
                 <div class="book-body">
                     <p>Great leaders lead with or without the authority to lead.</p>
                     <p>Because every road of leadership forks at the intersection of authority and influence, learning to cultivate influence without authority is foundational to navigating culture today.</p>
-                    <a href="https://www.amazon.com/How-Lead-When-Youre-Charge/dp/0310531578/" class="scrogg-button" target="_blank">
-                        Pre-Order on Amazon
-                    </a>
+                    <p>Pre-order your copy today.</p>
+                    <div class="small-up-1 medium-up-2 link-grid">
+                        <div class="column">
+                            <a href="https://www.amazon.com/How-Lead-When-Youre-Charge/dp/0310531578/" class="scrogg-button" target="_blank">
+                            Amazon
+                            </a>
+                        </div>
+                        <div class="column">
+                            <a href="http://www.barnesandnoble.com/w/how-to-lead-when-youre-not-in-charge-clay-scroggins/1125156315?ean=9780310531579" class="scrogg-button" target="_blank">
+                            Barnes &amp; Noble
+                            </a>
+                        </div>
+                        <div class="column">
+                            <a href="https://www.christianbook.com/not-in-charge-leveraging-influence-authority/clay-scroggins/9780310531579/pd/531579?product_redirect=1&Ntt=531579&item_code=&Ntk=keywords&event=ESRCP" class="scrogg-button" target="_blank">
+                            ChristianBook.com
+                            </a>
+                        </div>
+                        <div class="column">
+                            <a href="http://www.churchsource.com/how-to-lead-when-you-re-not-in-charge" class="scrogg-button" target="_blank">
+                            ChurchSource
+                            </a>
+                        </div>
+                        <div class="column">
+                            <a href="https://itunes.apple.com/us/book/how-to-lead-when-youre-not-in-charge/id1201977209?mt=11" class="scrogg-button" target="_blank">
+                            iBooks
+                            </a>
+                        </div>
+                        <div class="column">
+                            <a href="http://www.lifeway.com/Product/how-to-lead-when-youre-not-in-charge-P006156710" class="scrogg-button" target="_blank">
+                            Lifeway
+                            </a>
+                        </div>
+                    </div>
+                    <style>
+                    .link-grid .column {
+                        margin-bottom: 0.75rem;
+                    }
+                    .link-grid a.scrogg-button {
+                        text-transform: none;
+                    }
+                    </style>
+
                 </div>
                 <?php if ( ! is_front_page() ) { ?>
                 <div class="book-footer">

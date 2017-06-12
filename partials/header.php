@@ -9,12 +9,7 @@
         <span></span>
         <span></span>
       </div>
-      <?php
-      if ( ! is_page( 'login' ) ) {
-        scroggins_get_menu();
-      }
-      ?>
-
+      <?php scroggins_get_menu(); ?>
     </div>
   </div>
 </header>
