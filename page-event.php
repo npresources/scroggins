@@ -17,10 +17,10 @@
 			<div class="large-5 columns">
 				<h1>HOW TO LEAD WHEN YOU'RE NOT IN CHARGE</h1>
 				<p class="text-center">
-  					Register for a 24-hour, on-demand, online event encore on <strong>June 14</strong>
+                    Available On-Demand, All-Day, TODAY
 				</p>
-				<a id="registration-anchor" href="#registration">
-					REGISTER NOW
+				<a id="registration-anchor" href="https://event.clayscroggins.com/">
+					WATCH NOW
 				</a>
 			</div><!-- .large-5 -->
 		</div><!-- .row -->

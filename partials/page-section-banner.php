@@ -6,7 +6,6 @@
         <button class="orbit-next">
             <span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;
         </button>
-        <a href="<?php echo trailingslashit( get_site_url() ) ; ?>event/#registration" class="is-active orbit-slide slide-1"></a>
         <a href="<?php echo trailingslashit( get_site_url() ) ; ?>about/" class="is-active orbit-slide slide-2"></a>
         <a href="https://influencescore.typeform.com/to/usCZVm" class="orbit-slide slide-3" target="_blank"></a>
     </ul>

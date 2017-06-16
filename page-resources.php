@@ -14,11 +14,11 @@
 
     <div class="offers">
         <div class="row">
-            <div class="medium-4 columns">
+            <div class="medium-6 columns">
                 <h2 id="book-callout" class="block-title">Book</h2>
                 <p class="scrog-content"><em>How to Lead When You’re Not In Charge</em>
                 <br /><br />
-                Available everywhere August 22, 2017</p>
+                    Available everywhere August 22, 2017
                 <p><a data-open="signUp" class="scrogg-button">Sign up for updates</a></p>
                 <div class="reveal" id="sampleChapter" data-reveal>
                     <h2 class="block-title">Sample Chapter</h2>
@@ -52,19 +52,12 @@
                     </button>
                 </div>
             </div>
-            <div class="medium-4 columns">
+            <div class="medium-6 columns">
                 <h2 class="block-title">Find your influence score</h2>
                 <p class="scrog-content">
                     Learning how to lead when you're not in charge requires influence. Take this 20 question online assesssment and find your influence score.
                 </p>
                 <p><a href="https://influencescore.typeform.com/to/usCZVm" class="scrogg-button" target="_blank">Take Assessment</a></p>
-            </div>
-            <div class="medium-4 columns">
-                <h2 id="events-callout" class="block-title">Events</h2>
-                <p class="scrog-content">
-                    Join Clay at one of his upcoming events.
-                </p>
-                <p><a href="/event" class="scrogg-button">"How To Lead" Event</a></p>
             </div>
         </div>
     </div>
